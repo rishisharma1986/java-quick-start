@@ -84,7 +84,9 @@ mvn compile exec:java -Dexec.mainClass="com.mongodb.quickstart.ChangeStreams" -D
 ```sh
 mvn compile exec:java -Dexec.mainClass="com.mongodb.quickstart.csfle.ClientSideFieldLevelEncryption" -Dmongodb.uri="mongodb+srv://USERNAME:PASSWORD@cluster0-abcde.mongodb.net/test?w=majority" -Dexec.cleanupDaemonThreads=false
 ```
-
+- Rishi Commands
+mvn compile exec:java -Dexec.mainClass="com.mongodb.quickstart.Connection" -Dmongodb.uri="mongodb+srv://m030:Kaamana5@cluster0.vvpjhr9.mongodb.net/?w=majority"
+mvn compile exec:java -Dexec.mainClass="com.mongodb.quickstart.HelloMongoDB"
 
 # Author
 

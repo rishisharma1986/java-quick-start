@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AggregationFramework",
+            "request": "launch",
+            "mainClass": "com.mongodb.quickstart.AggregationFramework",
+            "projectName": "java-quick-start"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChangeStreams",
+            "request": "launch",
+            "mainClass": "com.mongodb.quickstart.ChangeStreams",
+            "projectName": "java-quick-start"
+        },
+        {
+            "type": "java",
+            "name": "Launch Connection",
+            "request": "launch",
+            "mainClass": "com.mongodb.quickstart.Connection",
+            "projectName": "java-quick-start"
+        },
+        {
+            "type": "java",
+            "name": "Launch Create",
+            "request": "launch",
+            "mainClass": "com.mongodb.quickstart.Create",
+            "projectName": "java-quick-start"
+        },
+        {
+            "type": "java",
+            "name": "Launch Delete",
+            "request": "launch",
+            "mainClass": "com.mongodb.quickstart.Delete",
+            "projectName": "java-quick-start"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloMongoDB",
+            "request": "launch",
+            "mainClass": "com.mongodb.quickstart.HelloMongoDB",
+            "projectName": "java-quick-start"
+        },
+        {
+            "type": "java",
+            "name": "Launch MappingPOJO",
+            "request": "launch",
+            "mainClass": "com.mongodb.quickstart.MappingPOJO",
+            "projectName": "java-quick-start"
+        },
+        {
+            "type": "java",
+            "name": "Launch Read",
+            "request": "launch",
+            "mainClass": "com.mongodb.quickstart.Read",
+            "projectName": "java-quick-start"
+        },
+        {
+            "type": "java",
+            "name": "Launch Update",
+            "request": "launch",
+            "mainClass": "com.mongodb.quickstart.Update",
+            "projectName": "java-quick-start"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClientSideFieldLevelEncryption",
+            "request": "launch",
+            "mainClass": "com.mongodb.quickstart.csfle.ClientSideFieldLevelEncryption",
+            "projectName": "java-quick-start"
+        }
+    ]
+}
